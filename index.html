@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night mode test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display">
+            <p id="display"><p>
+        </div>
+        <div class="calculator-buttons">
+            <button onclick="limpa_tela()">CE</button>
+            <button>C</button>
+            <button id="volta" onclick="apaga_1()">«</button>
+            <button onclick="recebe_dados('/')">/</button>
+            <button id="num_7" onclick="recebe_dados('7')">7</button>
+            <button id="num_8" onclick="recebe_dados('8')">8</button>
+            <button id="num_9" onclick="recebe_dados('9')">9</button>
+            <button onclick="recebe_dados('*')">*</button>
+            <button id="num_4" onclick="recebe_dados('4')">4</button>
+            <button id="num_5" onclick="recebe_dados('5')">5</button>
+            <button id="num_6" onclick="recebe_dados('6')">6</button>
+            <button onclick="recebe_dados('-')">-</button>
+            <button id="num_1" onclick="recebe_dados('1')">1</button>
+            <button id="num_2" onclick="recebe_dados('2')">2</button>
+            <button id="num_3" onclick="recebe_dados('3')">3</button>
+            <button onclick="recebe_dados('+')">+</button>
+            <button>±</button>
+            <button id="num_0" onclick="recebe_dados('0')">0</button>
+            <button onclick="recebe_dados(',')">,</button>
+            <button onclick="calcular()">=</button>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
+<!--DONE-->
